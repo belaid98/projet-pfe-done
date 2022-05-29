@@ -1,0 +1,31 @@
+.panier-item {
+  padding: 10px;
+  border-radius: 15px !important;
+  /* border: 1px solid rgba(160, 160, 160, 0.308); */
+  background-image: linear-gradient(to right, #1e2f97, #797ef6);
+  color: white;
+  margin: 5px 0px;
+}
+.panier-item:hover {
+  box-shadow: 2px 3px 5px rgb(214, 214, 214);
+}
+.panier-item .img {
+  margin: auto 5px;
+  height: 60px;
+  width: 80px;
+  object-fit: cover;
+  object-position: center;
+}
+.descripttion-item {
+  width: 80px !important;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.gap {
+  gap: 20px;
+}
+.padding-sides {
+  padding: 0px 10px;
+}

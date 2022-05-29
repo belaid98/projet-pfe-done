@@ -1,0 +1,26 @@
+.file-upload {
+  color: #a8a8a8 !important;
+}
+/*   .file-upload:hover {
+    color: white !important;
+  } */
+
+.image-uploaded {
+  margin: auto;
+  min-height: 50px;
+  min-width: 50px;
+  max-width: 200px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+.image-input {
+  padding: 5px;
+  display: grid;
+  grid-row: span;
+  justify-items: center;
+  text-align: center;
+  font-weight: bold;
+
+  color: rgb(207, 207, 207);
+  border-radius: 5px;
+}

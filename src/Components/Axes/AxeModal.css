@@ -1,0 +1,8 @@
+.axe-modal .MuiPaper-root {
+  background-color: rgb(46, 46, 46);
+  color: aliceblue;
+}
+.axe-modal .MuiDialogContent-root {
+  min-width: 280px !important;
+  max-width: 80vw !important;
+}

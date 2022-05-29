@@ -1,0 +1,81 @@
+#boutique .h1 {
+  text-align: center;
+  font-size: 4rem;
+  margin: 40px auto;
+}
+#boutique .h2 {
+  padding-top: 50px;
+  margin: -30px 5rem;
+  font-size: 3rem;
+  color: rgb(153, 163, 180);
+}
+.prod-slide {
+  margin: auto;
+  width: 100%;
+  max-width: 1200px;
+}
+.clear .splide__arrow {
+  background-color: transparent !important;
+}
+
+.ajout-panier .MuiDialogContent-root {
+  padding: 0 10px 10px !important;
+  min-width: 400px;
+  text-align: center;
+}
+.ajout-panier .ajout-panier-img {
+  height: 200px;
+  object-fit: contain;
+  align-self: center;
+  margin-bottom: 20px;
+}
+/* PIECES GRID */
+
+.pieces-container {
+  max-width: 1600px;
+  margin: auto;
+}
+.pieces {
+  padding: 20px;
+  display: grid;
+  column-gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  align-items: flex-start;
+}
+
+.justify-between {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* PIECE CARD */
+
+/**Card Hover Effect 4**/
+
+.pieces .hover-effect {
+  margin: 20px auto;
+}
+.pieces .hover-effect {
+  font-size: 40px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.pieces .hover-effect:hover {
+  cursor: default;
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+@media (max-width: 1000px) {
+  .pieces .custom-card {
+    padding: 10px !important;
+    min-width: 250px;
+  }
+}

@@ -1,0 +1,65 @@
+.custom-card {
+  padding: 20px 20px 0px 20px;
+  border-radius: 30px !important;
+  margin: 0px 15px;
+}
+.custom-card .MuiCardHeader-root {
+  text-align: center;
+  text-transform: capitalize;
+}
+.custom-card .css-1qvr50w-MuiTypography-root {
+  font-size: xx-large !important;
+}
+.custom-card .MuiCardHeader-root {
+  min-width: 200px;
+}
+.custom-card .MuiCardMedia-img {
+  object-fit: cover;
+  border-radius: 30px !important;
+}
+
+/**Card Hover Effect **/
+.hover-effect {
+  margin: 0;
+}
+.hover-effect .splide__track {
+  padding: 0px 30px !important;
+}
+
+.hover-effect ul li {
+  margin: 70px auto;
+}
+.hover-effect ul li div {
+  font-size: 40px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.hover-effect ul li.is-visible:hover > div {
+  cursor: grab;
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+@media (max-width: 1000px) {
+  .hover-effect .splide__track {
+    padding: 0px 10px !important;
+  }
+  .custom-card {
+    padding: 10px 10px 0px 10px;
+    border-radius: 20px !important;
+    margin: 0px 5px;
+  }
+  .hover-effect ul li.is-visible:hover > div {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}

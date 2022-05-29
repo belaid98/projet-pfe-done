@@ -1,0 +1,16 @@
+.link{
+    text-decoration: none;
+}
+.active .MuiListItemButton-root, .active .MuiListItemIcon-root, .active .MuiTypography-root {
+    background-color: rgb(0, 132, 255) !important;
+    color: white !important;
+    font-weight: bold !important;
+
+}
+.link {
+  -webkit-transition: all 0.8s ease;
+  -moz-transition: all 0.8s ease;
+  -ms-transition: all 0.8s ease;
+  -o-transition: all 0.8s ease;
+  transition: all 0.8s ease;
+}
